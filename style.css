@@ -1,0 +1,29 @@
+html{
+    background-color: black;
+    color:white ;
+}
+ /* change the hr acc to word length */
+ hr{                
+   height: 2px;
+   background-color: white;
+   border:none;
+   margin:0 389px 0 0;
+  
+
+}
+
+/*  Projects Section*/
+.Projects{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+    justify-content: center;
+
+}
+/* fix the img size issue or change the in=mages  */
+.Projects img{
+    width:160px;
+    height:160px;    
+    border-radius:10px;
+    object-fit: cover;
+}
