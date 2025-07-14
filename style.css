@@ -1,29 +1,81 @@
 html{
-    background-color: black;
-    color:white ;
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255) ;
 }
- /* change the hr acc to word length */
- hr{                
-   height: 2px;
-   background-color: white;
-   border:none;
-   margin:0 389px 0 0;
-  
+ 
+/* UNDERLINES BELOW HEADINGS */
 
+#Aspiring{ height: 2px;
+    background-color: white;
+    margin: 0 390px 0 0;
+    border: none;
+}
+ 
+#About{ height: 2px;
+    background-color: white;
+    margin: 0 528px 0 0;
+    border: none;
 }
 
-/*  Projects Section*/
+#Project{ height: 2px;
+ background-color: white;
+ margin: 0 567px 0 0;
+ border:none;
+}
+
+#Experience{ height: 2px;
+    background-color: white;
+    margin: 0 543px 0 0;
+    border: none;
+}
+#Technologies { height: 2px;
+    background-color: white;
+    margin: 0 528px 0 0;
+    border: none;
+}
+#Contact{ height: 2px;
+    background-color: white;
+    margin: 0 572px 0 0;
+    border: none;
+}
+
+/* PROJECT INAGES */
 .Projects{
     display: flex;
     flex-wrap: wrap;
-    gap: 9px;
+    gap: 25px;
     justify-content: center;
+    padding: 20px 0 0 0;
 
 }
-/* fix the img size issue or change the in=mages  */
+
 .Projects img{
     width:160px;
     height:160px;    
     border-radius:10px;
     object-fit: cover;
 }
+
+/* TECHNOLOGIES */
+
+/* CHANGE THE ICON TO ONE WITH OUT THE TEXT 
+ */
+
+ .Technologies img{
+   width:150px ;
+   height:100px ;
+
+} 
+
+.Contact img{
+    display: flex;
+    object-fit: cover;
+    flex-wrap: wrap;
+    gap: 25px;
+  
+}
+/* .small-icon{
+    width: 15px;
+    height: 15px;
+
+}        */
