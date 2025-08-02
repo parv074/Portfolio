@@ -56,17 +56,6 @@ html{
     object-fit: cover;
 }
 
-/* TECHNOLOGIES */
-
-/* CHANGE THE ICON TO ONE WITH OUT THE TEXT 
- */
-
- .Technologies img{
-   width:150px ;
-   height:100px ;
-
-} 
-
 .Contact img{
     display: flex;
     object-fit: cover;
